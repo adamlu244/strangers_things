@@ -1,0 +1,111 @@
+header {
+  background: maroon;
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.logout {
+  padding: 0;
+  border: none;
+  background: none;
+  color: white;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.footer {
+  text-align: left;
+  margin: 15px;
+  position: relative;
+  bottom: 0;
+}
+
+.login {
+    text-align: center;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register {
+  text-align: center;
+}
+
+.registerForm {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+h1, h2, .description {
+  margin: 15px;
+}
+
+.messages {
+  border: 2px solid black;
+  margin: 5px;
+}
+
+.removeBullet {
+  list-style: none;
+  margin-left: -30px;
+}
+
+h3 {
+  margin-left: 15px;
+}
+
+form {
+  margin-left: 15px;
+}
+
+.input {
+  margin-right: 5px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.errorMsg {
+  color: red;
+  margin-left: 15px;
+}
+
+.error {
+  color: red;
+}
+
+.successMsg {
+  color: green;
+}
+
+.delete {
+  margin-left: 15px;
+}
+
+.biggerInput {
+  width: 300px;
+}
+
+.bottomInput {
+  margin-bottom: 5px;
+}
